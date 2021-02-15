@@ -7,7 +7,7 @@ body {
   }
   
   h1 {
-	color: coral;
+	color: rgb(0, 0, 0);
   }
   
   .grid-container {
@@ -29,6 +29,7 @@ body {
   }
   .grid-container div:hover img {
 	filter: grayscale(0);
+	transform: scale(1.1);
   }
   .grid-container div:hover {
 	border-color: coral;
