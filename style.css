@@ -44,8 +44,8 @@ body{
     text-align: center;
 }
 
-p{
-    margin-top: 5pt;
+#timer{
+    margin-top: 10pt;
     background: 
         center
         linear-gradient(90deg, #c2fcf2 0%,#ffffff 100%);
@@ -60,7 +60,6 @@ p{
 .photos{
     margin: 0;
     font-size: 30px;
-    font-family: love;
     letter-spacing: 5pt;
     text-align: center;
 }
