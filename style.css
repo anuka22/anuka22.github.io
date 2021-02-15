@@ -6,7 +6,7 @@ body{
     margin: 0;
     padding: 0;
     width: 100%;
-    /* background: #FFF; */
+    background: #FFF;
 } 
 .background {
 	margin: auto;
@@ -58,13 +58,7 @@ p{
     text-align: center;
 }
 .photos{
-    margin-top: 5pt;
-    background: 
-        center
-        linear-gradient(90deg, #c2fcf2 0%,#ffffff 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    margin: 0;
     font-size: 30px;
     font-family: love;
     letter-spacing: 5pt;
@@ -175,4 +169,15 @@ img:hover{
 @font-face{
     font-family: bday;
     src: url(bday.ttf);
+}
+@keyframes sky {
+	0% {
+		background-position: 0% 50%;
+   }
+   50%{
+	   background-position: 100% 50%;
+   }
+	100% {
+		background-position: 0% 50%;
+   }
 }
