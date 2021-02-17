@@ -8,9 +8,9 @@ body{
 	font-family: 'Nanum Brush Script', cursive;
 }
 
-body, html{
+/* body, html{
     height: 100%;
-}
+} */
 
 .container-fluid{
     display: block;
