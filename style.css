@@ -1,6 +1,13 @@
 body{
+    margin: 0;
+    padding: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	font-family: 'Anton', sans-serif; 
 }
+
 .container-fluid{
     height: 100%;
     margin: 0;
@@ -9,7 +16,7 @@ body{
     background: #FFF;
 } 
 .background {
-	margin: auto;
+	margin: 0;
     padding: 0;
     background: linear-gradient(132deg, #FC415A, #591BC5, #212335);
     background-size: 400% 400%;
@@ -19,18 +26,19 @@ body{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-    /* z-index: -1; */
+    z-index: -1;
 }
 .bday{
-    margin-top: 80px;
+    margin-top: 8vw;
     background: linear-gradient(180deg, #bdbdbd 0%, #ffffff 110%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     cursor: pointer;
-    font-size: 80px;
+    font-size: 8vw;
     font-family: bday;
     text-align: center;
+    z-index: 1;
 }
 .name{
     margin: 0;
@@ -39,9 +47,10 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     cursor: pointer;
-    font-size: 180px;
+    font-size: 13vw;
     font-family: bday;
     text-align: center;
+    z-index: 1;
 }
 
 #timer{
@@ -52,65 +61,62 @@ body{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 30px;
-    font-family: love;
-    letter-spacing: 5pt;
+    font-size: 3vw;
+    letter-spacing: 0.5vw;
     text-align: center;
+    z-index: 1;
 }
-.photos{
-    margin: 0;
-    font-size: 30px;
-    letter-spacing: 5pt;
-    text-align: center;
-}
+
 .name:hover{
     -webkit-box-reflect: below -8px -webkit-gradient(linear, right top, right bottom, from(transparent),
     color-stop(85%, transparent), to(rgba(42, 99, 99, 1))) ;
 }
+
 .wrapper{
     position: relative;
     width: 320px;
     margin: 50px auto;
-    perspective: 1000px;
-    margin-bottom: 500px;
+    perspective: 2000px;
+    margin-bottom: 300px;
+    padding-bottom: 100px;
 }
 .img-area{
     position: absolute;
     width: 100%;
     height: 100%;
     transform-style: preserve-3d;
-    transform: rotateY(-360deg) translateZ(-300px) translateY(500px);
+    transform: rotateY(-360deg) translateZ(-30vw) translateY(50vw);
     animation: animate 25s steps(1000, end) infinite;
 }
 .single-img{
     position: absolute;
-    width: 300px;
-    height: 200px;
-    top: 10px;
-    left: 10px;
+    width: 30vw;
+    height: 20vw;
+    top: 1vw;
+    left: 1vw;
 }
 .single-img img{
-    width: 300px;
-    height: 200px;
-    border: 5px solid #fff;
+    width: 30vw;
+    height: 20vw;
+    border: 0.5vw solid #fff;
 }
 .single-img.img-one{
-    transform: rotateY(0deg) translateZ(300px);
+    transform: rotateY(0deg) translateZ(30vw);
 }
 .single-img.img-two{
-    transform: rotateY(60deg) translateZ(300px);
+    transform: rotateY(60deg) translateZ(30vw);
 }
 .single-img.img-three{
-    transform: rotateY(120deg) translateZ(300px);
+    transform: rotateY(120deg) translateZ(30vw);
 }
 .single-img.img-four{
-    transform: rotateY(180deg) translateZ(300px);
+    transform: rotateY(180deg) translateZ(30vw);
 }
 .single-img.img-five{
-    transform: rotateY(240deg) translateZ(300px);
+    transform: rotateY(240deg) translateZ(30vw);
 }
 .single-img.img-six{
-    transform: rotateY(300deg) translateZ(300px);
+    transform: rotateY(300deg) translateZ(30vw);
 }
 img{
     filter: grayscale(90%);
@@ -156,7 +162,7 @@ img:hover{
 }
 .content button:hover{
     border-radius: 0;
-  }
+}
 @keyframes animate{
     from{
         transform: rotateY(-360deg);
