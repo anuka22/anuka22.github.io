@@ -1,6 +1,6 @@
 body{
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -16,8 +16,8 @@ body{
     background: #FFF;
 } 
 .background {
-	margin: 0;
-    padding: 0;
+	margin: auto;
+    padding: auto;
     background: linear-gradient(132deg, #FC415A, #591BC5, #212335);
     background-size: 400% 400%;
     animation: sky 10s ease infinite;
@@ -78,7 +78,7 @@ body{
     margin: 5vw 10vw;
     perspective: 200vw;
     margin-bottom: 20vw;
-    padding-bottom: 5vw;
+    padding-bottom: auto;
 }
 .img-area{
     position: absolute;
