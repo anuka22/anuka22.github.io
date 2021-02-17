@@ -168,6 +168,24 @@ img:hover{
 .content button:hover{
     border-radius: 0;
 }
+
+footer {
+    position: relative;
+    height: 30vw;
+    width: 100%;
+    background-color: transparent;
+}
+
+p.copyright {
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    line-height: 40px;
+    font-size: 0.7em;
+    text-align: center;
+    bottom:0;
+}
+
 @keyframes animate{
     from{
         transform: rotateY(-360deg);
