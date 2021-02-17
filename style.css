@@ -8,9 +8,9 @@ body{
 	font-family: 'Nanum Brush Script', cursive;
 }
 
-/* body, html{
+body, html{
     height: 100%;
-} */
+}
 
 .container-fluid{
     display: block;
@@ -181,7 +181,7 @@ p.copyright {
     width: 100%;
     color: #fff;
     line-height: 4vw;
-    font-size: 8vw;
+    font-size: 5vw;
     text-align: center;
     bottom:0;
 }
