@@ -41,7 +41,7 @@ body{
     z-index: 1;
 }
 .name{
-    margin: 0;
+    margin: 3vw;
     background: linear-gradient(180deg,#bdbdbd 0%, #ffffff 110%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -53,8 +53,14 @@ body{
     z-index: 1;
 }
 
+.name:hover{
+    -webkit-box-reflect: below -8px -webkit-gradient(linear, right top, right bottom, from(transparent),
+    color-stop(85%, transparent), to(rgba(42, 99, 99, 1))) ;
+}
+
 #timer{
-    margin-top: 10pt;
+    margin-top: 1vw;
+    margin-bottom: 5vw;
     background: 
         center
         linear-gradient(90deg, #c2fcf2 0%,#ffffff 100%);
@@ -66,18 +72,13 @@ body{
     z-index: 1;
 }
 
-.name:hover{
-    -webkit-box-reflect: below -8px -webkit-gradient(linear, right top, right bottom, from(transparent),
-    color-stop(85%, transparent), to(rgba(42, 99, 99, 1))) ;
-}
-
 .wrapper{
     position: relative;
     width: 32vw;
-    margin: 15vw 10vw;
-    perspective: 2000px;
-    margin-bottom: 300px;
-    /* padding-bottom: 10vw; */
+    margin: 5vw 10vw;
+    perspective: 200vw;
+    margin-bottom: 200px;
+    padding-bottom: 5vw;
 }
 .img-area{
     position: absolute;
