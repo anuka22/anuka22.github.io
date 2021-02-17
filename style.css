@@ -171,7 +171,7 @@ img:hover{
 
 footer {
     position: relative;
-    height: 30vw;
+    height: 20vw;
     width: 100%;
     background-color: transparent;
 }
@@ -180,10 +180,10 @@ p.copyright {
     position: absolute;
     width: 100%;
     color: #fff;
-    line-height: 6vw;
+    line-height: 1vw;
     font-size: 5vw;
     text-align: center;
-    bottom:0;
+    bottom:5vw;
 }
 
 @keyframes animate{
