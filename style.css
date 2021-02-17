@@ -80,10 +80,9 @@ body{
 .wrapper{
     position: relative;
     width: 32vw;
-    margin: 5vw 10vw;
-    perspective: 200vw;
-    margin-bottom: 20vw;
-    padding-bottom: auto;
+    margin: 10% 10%;
+    perspective: 120vw;
+    margin-bottom: 20%;
 }
 .img-area{
     position: absolute;
@@ -148,7 +147,7 @@ img:hover{
     transition:opacity 250ms cubic-bezier(0.25, 0.25, 0.75, 0.75)
 } */
 .content{
-    margin-top:10%;
+    margin-top:20%;
     text-align: center;
     color:  #EFEEF5;
 }
