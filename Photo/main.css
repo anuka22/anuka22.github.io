@@ -3,11 +3,12 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	font-family: "Brush Script MT"
+	font-family: sans-serif;
   }
   
   h1 {
 	color: rgb(0, 0, 0);
+	font-family: "Brush Script MT";
   }
   
   .grid-container {
