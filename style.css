@@ -40,7 +40,7 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     cursor: pointer;
-    font-size: 8vw;
+    font-size: 6vw;
     font-family: bday;
     text-align: center;
     z-index: 1;
@@ -52,7 +52,7 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     cursor: pointer;
-    font-size: 13vw;
+    font-size: 10vw;
     font-family: bday;
     text-align: center;
     z-index: 1;
